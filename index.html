@@ -1,15 +1,319 @@
 <!DOCTYPE html>
+<!--
+	index.html
+-->
 <html lang="en">
 
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Kharlventz Sejour</title>
+	<title>Kharlventz Sejour | Software Engineer</title>
+	<meta name="description" content="Kharlventz Sejour — Software Engineer and ServiceNow CSA candidate. Portfolio, skills, certifications, and projects." />
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
-	<h1>Kharlventz Sejour</h1>
-	<p>Portfolio — coming soon.</p>
+
+	<!-- Nav -->
+	<header id="header">
+		<div class="wrap">
+			<a href="#top" class="logo">Kharlventz Sejour</a>
+
+			<button id="navToggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+
+			<nav id="nav">
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#certifications">Certifications</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main id="top">
+
+		<!-- Hero -->
+		<section id="hero" class="section hero">
+			<div class="wrap hero-inner">
+				<div class="hero-text">
+					<p class="eyebrow">Software Engineer</p>
+					<h1>Kharlventz Sejour</h1>
+					<p class="tagline">Software engineer with a passion for programming, currently working toward the
+						ServiceNow Certified System Administrator (CSA) certification. Enthusiastic about self-improvement,
+						collaboration, and delivering high-quality solutions that meet and exceed expectations.</p>
+					<div class="hero-actions">
+						<a href="#projects" class="button primary">View Projects</a>
+						<a href="#contact" class="button">Get In Touch</a>
+					</div>
+					<ul class="social-icons">
+						<li><a href="https://www.linkedin.com/in/kharl-sejour/" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="https://github.com/ksejour89" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+						<li><a href="mailto:kharl.sejour@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				<div class="hero-photo">
+					<img src="images/headshot.png" alt="Portrait of Kharlventz Sejour" />
+				</div>
+			</div>
+		</section>
+
+		<!-- About -->
+		<section id="about" class="section">
+			<div class="wrap">
+				<h2 class="section-title">About</h2>
+				<p>I'm a software engineer with a Master's degree in Computer Science from Georgia Tech and a Bachelor's
+					degree in Computer Science from the University of South Florida. I have a passion for programming and
+					the ability to swiftly adapt to emerging technologies. I'm currently expanding into the ServiceNow
+					platform, studying for the Certified System Administrator (CSA) exam, and building out projects to
+					showcase both my software engineering background and my growing platform administration skills.</p>
+				<p>I value collaboration, innovation, and continuous learning, and I work well with others to deliver
+					high-quality software solutions that meet and exceed customer expectations.</p>
+			</div>
+		</section>
+
+		<!-- Skills -->
+		<section id="skills" class="section alt">
+			<div class="wrap">
+				<h2 class="section-title">Skills</h2>
+				<div class="skills-grid">
+					<div class="skill-group">
+						<h3>Languages</h3>
+						<ul class="tag-list">
+							<li>C#</li>
+							<li>JavaScript</li>
+							<li>PHP</li>
+							<li>SQL</li>
+							<li>HTML &amp; CSS</li>
+						</ul>
+					</div>
+					<div class="skill-group">
+						<h3>Tools &amp; Platforms</h3>
+						<ul class="tag-list">
+							<li>Git &amp; GitHub</li>
+							<li>VS Code</li>
+							<li>Linux</li>
+							<li>REST APIs</li>
+							<li>Agile / Scrum</li>
+							<li>AWS</li>
+						</ul>
+					</div>
+					<div class="skill-group">
+						<h3>ServiceNow Platform</h3>
+						<ul class="tag-list">
+							<li>ITSM Fundamentals</li>
+							<li>CMDB</li>
+							<li>Flow Designer</li>
+							<li>Business Rules &amp; Glide Script</li>
+							<li>System Administration</li>
+						</ul>
+					</div>
+					<div class="skill-group">
+						<h3>Enterprise Systems &amp; ERP</h3>
+						<ul class="tag-list">
+							<li>ABAP</li>
+							<li>SAP ERP / HANA</li>
+							<li>SAP MM &amp; SD</li>
+							<li>EDI</li>
+							<li>Supply Chain Management</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Certifications & Education -->
+		<section id="certifications" class="section">
+			<div class="wrap">
+				<h2 class="section-title">Certifications &amp; Education</h2>
+				<ul class="timeline">
+					<li class="timeline-item in-progress">
+						<div class="timeline-icon"><i class="fas fa-certificate"></i></div>
+						<div class="timeline-content">
+							<span class="badge">In Progress</span>
+							<h3>ServiceNow Certified System Administrator (CSA)</h3>
+							<p>Studying toward certification — target completion date TBD.</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-icon"><img src="images/Riseup with Servicenow.png" alt="RiseUp with ServiceNow logo" /></div>
+						<div class="timeline-content">
+							<h3>RiseUp with ServiceNow</h3>
+							<p>Completed 2024</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-icon"><img src="images/Credential Badge - Micro-Cert- Flows.png" alt="ServiceNow Flow Designer micro-certification badge" /></div>
+						<div class="timeline-content">
+							<h3>Micro-Certification – Flow Designer</h3>
+							<p>ServiceNow &middot; Issued April 2024</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-icon"><img src="images/Credential Badge - Micro-Cert- Certified Welcome to ServiceNow.png" alt="ServiceNow Welcome to ServiceNow micro-certification badge" /></div>
+						<div class="timeline-content">
+							<h3>Micro-Certification – Welcome to ServiceNow</h3>
+							<p>ServiceNow &middot; Issued October 2023</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-icon"><img src="images/CERTIFICATE_LANDING_PAGE~LUN5XRNSSMRG.jpeg" alt="AWS Architecting Solutions certificate" /></div>
+						<div class="timeline-content">
+							<h3>Architecting Solutions on AWS</h3>
+							<p>Amazon Web Services &middot; Issued April 2024</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-icon"><img src="images/gatech-resize.png" alt="Georgia Tech logo" /></div>
+						<div class="timeline-content">
+							<h3>Master of Science, Computer Science</h3>
+							<p>Georgia Institute of Technology</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-icon"><img src="images/usf2.png" alt="University of South Florida logo" /></div>
+						<div class="timeline-content">
+							<h3>Bachelor of Science, Computer Science</h3>
+							<p>University of South Florida</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Projects -->
+		<section id="projects" class="section alt">
+			<div class="wrap">
+				<h2 class="section-title">Projects</h2>
+				<div class="card-grid">
+					<!-- TODO: replace with real project -->
+					<article class="card">
+						<h3>Project One</h3>
+						<p>Short description of what this project does and the problem it solves. Replace with a real
+							project.</p>
+						<ul class="tag-list small">
+							<li>Python</li>
+							<li>Flask</li>
+						</ul>
+						<div class="card-links">
+							<a href="#" target="_blank" rel="noopener">GitHub</a>
+							<a href="#" target="_blank" rel="noopener">Live Demo</a>
+						</div>
+					</article>
+					<!-- TODO: replace with real project -->
+					<article class="card">
+						<h3>Project Two</h3>
+						<p>Short description of what this project does and the problem it solves. Replace with a real
+							project.</p>
+						<ul class="tag-list small">
+							<li>JavaScript</li>
+							<li>Node.js</li>
+						</ul>
+						<div class="card-links">
+							<a href="#" target="_blank" rel="noopener">GitHub</a>
+							<a href="#" target="_blank" rel="noopener">Live Demo</a>
+						</div>
+					</article>
+					<!-- TODO: replace with real project -->
+					<article class="card">
+						<h3>Project Three</h3>
+						<p>Short description of what this project does and the problem it solves. Replace with a real
+							project.</p>
+						<ul class="tag-list small">
+							<li>ServiceNow</li>
+							<li>Glide Script</li>
+						</ul>
+						<div class="card-links">
+							<a href="#" target="_blank" rel="noopener">GitHub</a>
+							<a href="#" target="_blank" rel="noopener">Live Demo</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<!-- Experience -->
+		<section id="experience" class="section">
+			<div class="wrap">
+				<h2 class="section-title">Experience</h2>
+				<ul class="timeline">
+					<li class="timeline-item">
+						<div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+						<div class="timeline-content">
+							<h3>Software Engineer</h3>
+							<p class="meta">Quanta Inc &middot; Aug 2023 &ndash; Jul 2025 &middot; Remote</p>
+							<p>Migrated legacy VB6/VB.NET applications to modern .NET 8 (C#), improving maintainability and performance. Built C# Windows services and a ZPL-based label-printing system for production workflows, and developed a .NET server health-monitoring application deployed on AWS to track infrastructure uptime.</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+						<div class="timeline-content">
+							<h3>Senior SAP Developer / SAP EWM Consultant</h3>
+							<p class="meta">General Motors &middot; 2019 &ndash; 2023 &middot; Atlanta, Hybrid</p>
+							<p>Led implementation of SAP Extended Warehouse Management (EWM) for North America warehouse operations, designing custom enhancements including a two-step picking process and wave-based carrier/route redetermination. Provided ongoing incident resolution and configuration support across SAP SD, MM, FI, and SCM modules.</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+						<div class="timeline-content">
+							<h3>Technical Lead</h3>
+							<p class="meta">General Motors &middot; 2018 &middot; Atlanta, Hybrid</p>
+							<p>Led SAP Service Parts Planning (SPP) implementation, coordinating cross-functional requirements and go-live readiness. Conducted code reviews and mentored developers on SAP development standards, and performed root-cause analysis on production issues in partnership with SAP OSS support.</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+						<div class="timeline-content">
+							<h3>SAP Developer/Analyst</h3>
+							<p class="meta">General Motors &middot; 2014 &ndash; 2018 &middot; Atlanta, Hybrid</p>
+							<p>Served as lead developer on GM's SAP R/3 to ECC 6.0 (HANA) upgrade, resolving modification conflicts across custom code and remediating legacy customizations to reduce production errors. Delivered incident fixes and enhancements across SD, MM, FI, CRM, and SCM modules, including hypercare go-live support.</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+						<div class="timeline-content">
+							<h3>Electronic Data Interchange Analyst (Intern)</h3>
+							<p class="meta">Masonite &middot; Jul 2010 &ndash; Dec 2013 &middot; Tampa, FL, On-site</p>
+							<p>Built data translation maps in IBM Sterling Integrator for EDI transactions with key trading partners. Collaborated with senior EDI analysts and consultants to document processes for the company's most complex partner integrations, and wrote supporting UNIX scripts to automate EDI data processing.</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="section alt">
+			<div class="wrap">
+				<h2 class="section-title">Get In Touch</h2>
+				<p>Interested in connecting? Reach out any time.</p>
+				<!-- Note: GitHub Pages is static hosting, so this is a mailto link.
+				     A form service (e.g. Formspree) could be added later for an in-page contact form. -->
+				<ul class="contact-list">
+					<li><i class="fas fa-map-marker-alt"></i> Savannah, GA 31407</li>
+					<li><i class="fas fa-envelope"></i> <a href="mailto:kharl.sejour@gmail.com">kharl.sejour@gmail.com</a></li>
+					<li><i class="fab fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/kharl-sejour/" target="_blank" rel="noopener">linkedin.com/in/kharl-sejour</a></li>
+					<li><i class="fab fa-github"></i> <a href="https://github.com/ksejour89" target="_blank" rel="noopener">github.com/ksejour89</a></li>
+				</ul>
+			</div>
+		</section>
+
+	</main>
+
+	<footer id="footer">
+		<div class="wrap">
+			<p>&copy; <span id="year"></span> Kharlventz Sejour. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<script src="assets/js/script.js"></script>
 </body>
 
 </html>
